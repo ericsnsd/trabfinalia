@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cavaleiros do Zodíaco</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="assets/CavaleirosOuro.png">
+        <div class="tituloHeader">
+            <h1>Cavaleiros do Zodíaco - O Resgate de Atena!</h1>
+            <img src="assets/CavaleirosBronze.png">
+        </div>
+        <img id="imgAthena" src="assets/Athena.png">
+    </header>
+    <main>
+        <div class="rowBotoes">
+            <button class="buttonMenu" id="playButton">Iniciar</button>
+            <button class="buttonMenu" id="configButton">Configurações</button>
+        </div>
+        <div id="containerMatriz">
+            <div id="botaoSimulacao"></div>
+            <div id="displayTimer"></div>
+            <div id="botaoRecomecar"></div>
+            <div id="containerMapaECavaleiros">
+                <div id="historicoEventos"></div>
+                <div id="matrizMapa"></div>
+                <div id="situacaoCavaleiros"></div>
+            </div>
+
+        </div>
+    </main>
+    <script src="game.js"></script>
+</body>
+</html>
